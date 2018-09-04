@@ -1,0 +1,651 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="style/style.css">
+<link rel="stylesheet" href="resources/animate.min.css">
+<link rel="stylesheet" href="magicmaster/magic.css">
+<link href="https://fonts.googleapis.com/css?family=Courgette|Dancing+Script|Damion|Kaushan+Script|Satisfy" rel="stylesheet">
+
+
+</head>
+
+<body>
+<audio loop id="myAudio">
+	<source src="audio/AudioProject1.mp3" type="audio/mp3">
+</audio>
+ <div id="text1" class="magictime vanishIn">
+Samantha's Day
+</div>
+  <div id="text2" class="magictime puffIn" onclick="timedMsg()">
+    <h id="text">click me to start the story</h>
+ </div>
+ <div id="text3" class="magictime vanishIn">
+ How careless I am!
+ </div>
+ <div id="text4" class="magictime vanishIn">
+ I have to sweep out those glasses 
+ </div>
+ <div id="text5" class="magictime vanishIn">
+ It's the 45th day Samantha seperated from her boyfriend...
+ </div>
+ <div id="text6" class="magictime vanishIn">
+ It's already 9am...I have to hurry
+</div>
+<div id="text7" class="magictime vanishIn">
+Scene 1      Wakeup
+</div>
+<div id="text8" class="magictime vanishIn">
+Scene 2      In the cafeteria 
+</div>
+<div id="text9" class="magictime vanishIn">
+The feeling is not good...eating alone 
+</div>
+<div id="text10" class="magictime vanishIn">
+Oh...the tea...almost choke me!
+</div>
+<div id="text11" class="magictime vanishIn">
+Scene 3 On the bus
+</div>
+<div id="text12" class="magictime spaceInUp">
+Do you feel any better? :)
+</div>
+<div id="text13" class="magictime spaceInDown">
+Not good...still coughing 
+</div>
+<div id="text14" class="magictime spaceInUp">
+Drink some hot water, it helps
+</div>
+<div id="text15" class="magictime spaceInDown">
+Hot water again...
+</div>
+<div id="text16" class="magictime spaceInUp">
+Sorry? What's wrong?
+</div>
+<div id="text17" class="magictime spaceInDown">
+<h>Everytime you told me to drink hot water</h>
+<h>Can't you find some other words to say?</h>
+<h>You don't know how bad I am feeling now</h>
+<h>Do you know this morning...</h>
+<h>forget it...I get enough of you</h>
+</div>
+<div id="text18" class="magictime vanishIn">
+Scene 4 Late
+</div>
+<div id="text19" class="magictime vanishIn">
+There is no seat for me now...
+</div>
+<div id="text20" class="magictime vanishIn">
+I have wasted too many time on my way
+</div>
+<div id="text21" class="magictime vanishIn">
+Maybe it's because that I forgot the fact that no one will keep a seet for me now
+</div>
+<div id="text22" class="magictime vanishIn">
+Scene 5 Bus Stop
+</div>
+<div id="text23" class="animated tada">
+Oh no...The bus is gonna leave...
+</div>
+<div id="text24" class="animated pulse">
+Wait a minute...please...
+</div>
+<div id="text25" class="animated rubberBand">
+What? It just leaves? It must have heard me!
+</div>
+<div id="text26" class="magictime vanishIn">
+At least I brought a book with me to kill the time...
+</div>
+<div id="text27" class="magictime vanishIn">
+Oh no...is raining...
+</div>
+<div id="text28" class="magictime vanishIn">
+I cant find my umbrella...
+</div>
+<div id="text29" class="magictime vanishIn">
+Oh...my book is getting wet...
+</div>
+<div id="text30" class="animated pulse">
+Tommy...I miss you so much...
+</div>
+<div id="text31" class="magictime vanishIn">
+Samantha's Day
+</div>
+<div id="text32" class="magictime spaceInDown">
+By Sam Xu and Cyndi
+</div>
+<!--<div id="text33" class="animated pulse" onclick="timedMsg()">
+	Restart
+</div>-->
+<a href="samanthastory.html">
+<div id="text33" class="animated pulse">
+	Restart
+</div>
+</a>
+
+<script src="resources/jquery.js"></script>
+<script type="text/javascript">
+var a = document.getElementById("myAudio");
+
+function appear(){
+	document.getElementById("text3").style.display = "block";
+} 
+function appear1(){
+	document.getElementById("text4").style.display = "block";
+}
+function appear2(){
+	document.getElementById("text5").style.display = "block";
+}
+function appear3(){
+	document.getElementById("text6").style.display = "block";
+}
+function appear4(){
+	document.getElementById("text7").style.display = "block";
+}
+function appear5(){
+	document.getElementById("text8").style.display = "block";
+}
+function appear6(){
+	document.getElementById("text9").style.display = "block";
+}
+function appear7(){
+	document.getElementById("text10").style.display = "block";
+}
+
+function appear8(){
+	document.getElementById("text11").style.display = "block";
+}
+
+function appear9(){
+	document.getElementById("text12").style.display = "block";
+}
+
+function appear10(){
+	document.getElementById("text13").style.display = "block";
+}
+function appear11(){
+	document.getElementById("text14").style.display = "block";
+}
+function appear12(){
+	document.getElementById("text15").style.display = "block";
+}
+function appear13(){
+	document.getElementById("text16").style.display = "block";
+}
+function appear14(){
+	document.getElementById("text17").style.display = "block";
+}
+function appear15(){
+	document.getElementById("text18").style.display = "block";
+}
+function appear16(){
+	document.getElementById("text19").style.display = "block";
+}
+function appear17(){
+	document.getElementById("text20").style.display = "block";
+}
+function appear18(){
+	document.getElementById("text21").style.display = "block";
+}
+function appear19(){
+	document.getElementById("text22").style.display = "block";
+}
+function appear20(){
+	document.getElementById("text23").style.display = "block";
+}
+function appear21(){
+	document.getElementById("text24").style.display = "block";
+}
+function appear22(){
+	document.getElementById("text25").style.display = "block";
+}
+function appear23(){
+	document.getElementById("text26").style.display = "block";
+}
+function appear24(){
+	document.getElementById("text27").style.display = "block";
+}
+function appear25(){
+	document.getElementById("text28").style.display = "block";
+}
+function appear26(){
+	document.getElementById("text29").style.display = "block";
+}
+function appear27(){
+	document.getElementById("text30").style.display = "block";
+}
+function appear28(){
+	document.getElementById("text31").style.display = "block";
+}
+function appear29(){
+	document.getElementById("text32").style.display = "block";
+}
+function appear30(){
+	document.getElementById("text33").style.display = "block";
+}
+//function appear28(){
+//	document.getElementById("text1").style.display = "block";
+//}
+function disappear(){
+	//document.getElementById("text1").style.display = "none";
+	$(function(){
+		$("#text1").addClass('magictime vanishOut').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend',
+                    function(){
+                        $(this).removeClass('magictime vanishIn');
+                    });
+		});
+
+}
+function disappear1(){
+	//document.getElementById("text1").style.display = "none";
+	$(function(){
+		$("#text5").addClass('magictime vanishOut').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend',
+                    function(){
+                        $(this).removeClass('magictime vanishIn');
+                    });
+		});
+
+}
+function disappear2(){
+	//document.getElementById("text1").style.display = "none";
+	$(function(){
+		$("#text3").addClass('magictime vanishOut').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend',
+                    function(){
+                        $(this).removeClass('magictime vanishIn');
+                    });
+		});
+
+}
+function disappear3(){
+	//document.getElementById("text1").style.display = "none";
+	$(function(){
+		$("#text4").addClass('magictime vanishOut').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend',
+                    function(){
+                        $(this).removeClass('magictime vanishIn');
+                    });
+		});
+
+}
+function disappear4(){
+	//document.getElementById("text1").style.display = "none";
+	$(function(){
+		$("#text6").addClass('magictime vanishOut').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend',
+                    function(){
+                        $(this).removeClass('magictime vanishIn');
+                    });
+		});
+
+}
+function disappear5(){
+	//document.getElementById("text1").style.display = "none";
+	$(function(){
+		$("#text7").addClass('magictime vanishOut').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend',
+                    function(){
+                        $(this).removeClass('magictime vanishIn');
+                    });
+		});
+
+}
+function disappear6(){
+	//document.getElementById("text1").style.display = "none";
+	$(function(){
+		$("#text8").addClass('magictime vanishOut').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend',
+                    function(){
+                        $(this).removeClass('magictime vanishIn');
+                    });
+		});
+
+}
+function disappear7(){
+	//document.getElementById("text1").style.display = "none";
+	$(function(){
+		$("#text9").addClass('magictime vanishOut').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend',
+                    function(){
+                        $(this).removeClass('magictime vanishIn');
+                    });
+		});
+
+}
+function disappear8(){
+	//document.getElementById("text1").style.display = "none";
+	$(function(){
+		$("#text10").addClass('magictime vanishOut').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend',
+                    function(){
+                        $(this).removeClass('magictime vanishIn');
+                    });
+		});
+
+}
+function disappear9(){
+	//document.getElementById("text1").style.display = "none";
+	$(function(){
+		$("#text11").addClass('magictime vanishOut').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend',
+                    function(){
+                        $(this).removeClass('magictime vanishIn');
+                    });
+		});
+
+}
+
+function disappear10(){
+	//document.getElementById("text1").style.display = "none";
+	$(function(){
+		$("#text12").addClass('magictime spaceOutDown').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend',
+                    function(){
+                        $(this).removeClass('magictime spaceInUp');
+                    });
+		});
+
+}
+
+function disappear11(){
+	//document.getElementById("text1").style.display = "none";
+	$(function(){
+		$("#text13").addClass('magictime spaceOutDown').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend',
+                    function(){
+                        $(this).removeClass('magictime spaceInDown');
+                    });
+		});
+
+}
+
+
+function disappear12(){
+	//document.getElementById("text1").style.display = "none";
+	$(function(){
+		$("#text14").addClass('magictime spaceOutDown').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend',
+                    function(){
+                        $(this).removeClass('magictime spaceInUp');
+                    });
+		});
+
+}
+
+function disappear13(){
+	//document.getElementById("text1").style.display = "none";
+	$(function(){
+		$("#text15").addClass('magictime spaceOutDown').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend',
+                    function(){
+                        $(this).removeClass('magictime spaceInDown');
+                    });
+		});
+
+}
+
+function disappear14(){
+	//document.getElementById("text1").style.display = "none";
+	$(function(){
+		$("#text16").addClass('magictime spaceOutDown').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend',
+                    function(){
+                        $(this).removeClass('magictime spaceInUp');
+                    });
+		});
+
+}
+
+function disappear15(){
+	//document.getElementById("text1").style.display = "none";
+	$(function(){
+		$("#text17").addClass('magictime spaceOutDown').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend',
+                    function(){
+                        $(this).removeClass('magictime spaceInDown');
+                    });
+		});
+
+}
+function disappear16(){
+	//document.getElementById("text1").style.display = "none";
+	$(function(){
+		$("#text18").addClass('magictime vanishOut').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend',
+                    function(){
+                        $(this).removeClass('magictime vanishIn');
+                    });
+		});
+
+}
+
+function disappear17(){
+	//document.getElementById("text1").style.display = "none";
+	$(function(){
+		$("#text19").addClass('magictime vanishOut').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend',
+                    function(){
+                        $(this).removeClass('magictime vanishIn');
+                    });
+		});
+
+}
+
+function disappear18(){
+	//document.getElementById("text1").style.display = "none";
+	$(function(){
+		$("#text20").addClass('magictime vanishOut').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend',
+                    function(){
+                        $(this).removeClass('magictime vanishIn');
+                    });
+		});
+
+}
+function disappear19(){
+	//document.getElementById("text1").style.display = "none";
+	$(function(){
+		$("#text21").addClass('magictime vanishOut').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend',
+                    function(){
+                        $(this).removeClass('magictime vanishIn');
+                    });
+		});
+
+}
+function disappear20(){
+	//document.getElementById("text1").style.display = "none";
+	$(function(){
+		$("#text22").addClass('magictime vanishOut').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend',
+                    function(){
+                        $(this).removeClass('magictime vanishIn');
+                    });
+		});
+
+}
+function disappear21(){
+	//document.getElementById("text1").style.display = "none";
+	$(function(){
+		$("#text23").addClass('magictime vanishOut').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend',
+                    function(){
+                        $(this).removeClass('animated tada');
+                    });
+		});
+
+}
+function disappear22(){
+	//document.getElementById("text1").style.display = "none";
+	$(function(){
+		$("#text24").addClass('magictime vanishOut').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend',
+                    function(){
+                        $(this).removeClass('animated pulse');
+                    });
+		});
+
+}
+function disappearagain(){
+
+	document.getElementById("text24").style.display = "none";
+
+}
+
+function disappear23(){
+	//document.getElementById("text1").style.display = "none";
+	$(function(){
+		$("#text25").addClass('magictime vanishOut').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend',
+                    function(){
+                        $(this).removeClass('animated bounce');
+                    });
+		});
+
+}
+
+function disappear24(){
+	//document.getElementById("text1").style.display = "none";
+	$(function(){
+		$("#text26").addClass('magictime vanishOut').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend',
+                    function(){
+                        $(this).removeClass('magictime vanishIn');
+                    });
+		});
+
+}
+function disappear25(){
+	//document.getElementById("text1").style.display = "none";
+	$(function(){
+		$("#text27").addClass('magictime vanishOut').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend',
+                    function(){
+                        $(this).removeClass('magictime vanishIn');
+                    });
+		});
+
+}
+function disappear26(){
+	//document.getElementById("text1").style.display = "none";
+	$(function(){
+		$("#text28").addClass('magictime vanishOut').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend',
+                    function(){
+                        $(this).removeClass('magictime vanishIn');
+                    });
+		});
+
+}
+function disappear27(){
+	//document.getElementById("text1").style.display = "none";
+	$(function(){
+		$("#text29").addClass('magictime vanishOut').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend',
+                    function(){
+                        $(this).removeClass('magictime vanishIn');
+                    });
+		});
+
+}
+function disappear28(){
+	//document.getElementById("text1").style.display = "none";
+	$(function(){
+		$("#text30").addClass('magictime vanishOut').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend',
+                    function(){
+                        $(this).removeClass('animated pulse');
+                    });
+		});
+
+}
+function disappear29(){
+	//document.getElementById("text1").style.display = "none";
+	$(function(){
+		$("#text31").addClass('magictime vanishOut').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend',
+                    function(){
+                        $(this).removeClass('magictime vanishIn');
+                    });
+		});
+
+}
+function disappearagain1(){
+
+	document.getElementById("text30").style.display = "none";
+
+}
+
+
+
+
+function timedMsg(){
+
+	document.getElementById("text1").style.display = "block";
+	var t0 = setTimeout("a.play()",0)
+	var t1 = setTimeout("appear()", 39000);
+	var t2 = setTimeout("disappear()", 6000);
+	var t3 = setTimeout("appear1()", 41000);
+	var t4 = setTimeout("appear2()",8000);
+	var t5 = setTimeout("disappear1()", 15000);
+	var t6 = setTimeout("appear3()",69000);
+	var t7 = setTimeout("disappear2()", 80000);
+	var t8 = setTimeout("disappear3()", 81000);
+	var t9 = setTimeout("disappear4()", 82000);	
+	var t10 = setTimeout("appear4()",16000);
+	var t11 = setTimeout("disappear5()", 25000);	
+	var t12 = setTimeout("appear5()",84000);
+	var t13 = setTimeout("disappear6()", 87000);
+	var t14 = setTimeout("appear6()",90000);
+	var t15 = setTimeout("disappear7()", 133000);
+	var t16 = setTimeout("appear7()",122000);
+	var t17 = setTimeout("disappear8()", 134000);
+	var t18 = setTimeout("appear8()",150000);
+	var t19 = setTimeout("disappear9()", 153000);
+
+
+	var t20 = setTimeout("appear9()",156000);
+	var t21 = setTimeout("disappear10()", 217000);	
+	var t22 = setTimeout("appear10()",165000);
+	var t23 = setTimeout("disappear11()", 218000);
+	var t24 = setTimeout("appear11()",167000);
+	var t25 = setTimeout("disappear12()", 219000);
+	var t26 = setTimeout("appear12()",176000);
+	var t27 = setTimeout("disappear13()", 220000);
+	var t28 = setTimeout("appear13()",180000);
+	var t29 = setTimeout("disappear14()", 221000);
+	var t30 = setTimeout("appear14()",205000);
+	var t31 = setTimeout("disappear15()", 222000);
+	var t32 = setTimeout("appear15()",230000);
+	var t33 = setTimeout("disappear16()", 233000);
+
+	var t34 = setTimeout("appear16()",235000);
+	var t35 = setTimeout("disappear17()", 250000);
+	var t36 = setTimeout("appear17()",237000);
+	var t37 = setTimeout("disappear18()", 252000);
+	var t38 = setTimeout("appear18()",239000);
+	var t39 = setTimeout("disappear19()", 254000);
+
+	var t40 = setTimeout("appear19()",270000);
+	var t41 = setTimeout("disappear20()", 278000);
+	var t42 = setTimeout("appear20()",285000);
+	var t43 = setTimeout("disappear21()", 295000);
+	var t44 = setTimeout("appear21()",295000);
+	var t45 = setTimeout("disappear22()", 310000);
+	var t46 = setTimeout("disappearagain()", 311000);
+	var t47 = setTimeout("appear22()",315000);
+	var t48 = setTimeout("disappear23()", 320000);
+	var t49 = setTimeout("appear23()",330000);
+	var t50 = setTimeout("disappear24()", 360000);
+	var t51 = setTimeout("appear24()",370000);
+	var t52 = setTimeout("disappear25()", 410000);
+	var t53 = setTimeout("appear25()",380000);
+	var t54 = setTimeout("disappear26()", 412000);
+	var t55 = setTimeout("appear26()",390000);
+	var t56 = setTimeout("disappear27()", 414000);
+	var t57 = setTimeout("appear27()",415000);
+	var t58 = setTimeout("disappear28()", 425000);
+	var t59 = setTimeout("disappearagain1()", 426000);
+	var t60 = setTimeout("appear28()",435000);
+	//var t61 = setTimeout("disappear29()", 425000);
+	var t61 = setTimeout("appear29()",440000);
+	//var t61 = setTimeout("disappear29()", 425000);
+	var t62 = setTimeout("appear30()",445000);
+
+
+	//var t59 = setTimeout("appear28()",7000);
+	//a.play();
+
+}
+
+
+$(function(){
+
+    		$('#text').click(function(){
+    			$("#text2").addClass('magictime spaceOutDown').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend',
+                    function(){
+                        $(this).removeClass('magictime puff');
+                    });
+                });
+
+    		});
+
+ 
+</script>
+
+
+
+
+</body>
+</html>
